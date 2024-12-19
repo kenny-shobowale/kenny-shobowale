@@ -14,7 +14,7 @@ snsTopics:
   topics:
     - name: Security
       emailAddresses:
-        - <security-notifications>@example.com  <----- UPDATE EMAIL ADDRESS
+        - fcdjin+mcnc@amazon.com
 controlTower:
   enable: true
   landingZone:
@@ -150,31 +150,31 @@ reports:
           threshold: 100
           comparisonOperator: GREATER_THAN
           subscriptionType: EMAIL
-          address: <budget-notifications>@example.com  <----- UPDATE EMAIL ADDRESS
+          address: fcdjin+mcnc@amazon.com
         - type: ACTUAL
           thresholdType: PERCENTAGE
           threshold: 90
           comparisonOperator: GREATER_THAN
           subscriptionType: EMAIL
-          address: <budget-notifications>@example.com  <----- UPDATE EMAIL ADDRESS
+          address: fcdjin+mcnc@amazon.com
         - type: ACTUAL
           thresholdType: PERCENTAGE
           threshold: 80
           comparisonOperator: GREATER_THAN
           subscriptionType: EMAIL
-          address: <budget-notifications>@example.com  <----- UPDATE EMAIL ADDRESS
+          address: fcdjin+mcnc@amazon.com
         - type: ACTUAL
           thresholdType: PERCENTAGE
           threshold: 75
           comparisonOperator: GREATER_THAN
           subscriptionType: EMAIL
-          address: <budget-notifications>@example.com  <----- UPDATE EMAIL ADDRESS
+          address: fcdjin+mcnc@amazon.com
         - type: ACTUAL
           thresholdType: PERCENTAGE
           threshold: 50
           comparisonOperator: GREATER_THAN
           subscriptionType: EMAIL
-          address: <budget-notifications>@example.com  <----- UPDATE EMAIL ADDRESS
+          address: fcdjin+mcnc@amazon.com
 backup:
   vaults:
     - name: BackupVault
