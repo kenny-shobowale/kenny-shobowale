@@ -5,7 +5,7 @@
 enable: true
 organizationalUnits:
   - name: Security
-  # - name: Infrastructure
+  - name: Infrastructure
 quarantineNewAccounts:
   enable: true
   scpPolicyName: Quarantine
@@ -17,7 +17,7 @@ serviceControlPolicies:
     type: customerManaged
     deploymentTargets:
       organizationalUnits:
-        # - Infrastructure
+        - Infrastructure
         - Security
   - name: AcceleratorGuardrails2
     description: >
@@ -26,7 +26,7 @@ serviceControlPolicies:
     type: customerManaged
     deploymentTargets:
       organizationalUnits:
-        # - Infrastructure
+        - Infrastructure
         - Security
   - name: Quarantine
     description: >
