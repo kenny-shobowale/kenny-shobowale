@@ -22,8 +22,8 @@ workloadAccounts:
     description: The SharedServices account
     email: fcdjin+mcnc_sharedservices@amazon.com
     organizationalUnit: Infrastructure
-  # - name: Network
-  #   description: The Network account
-  #   email: fcdjin+mcnc@amazon.com
-  #   organizationalUnit: Infrastructure
+  - name: Network
+    description: The Network account
+    email: fcdjin+mcnc_network@amazon.com
+    organizationalUnit: Infrastructure
 
